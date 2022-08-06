@@ -1,0 +1,126 @@
+:root {
+  --primary-color: rgb(96, 93, 136);
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  margin-top: 100px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+h4 {
+  font-size: 18px;
+  opacity: 0.5;
+  text-align: center;
+}
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+contact:hover {
+  color: white;
+}
+.pizza-link {
+  background-color: #ffe842;
+  color: black;
+  text-decoration: none;
+}
+.weather-link {
+  background-color: rgb(93, 177, 192);
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.weather-link,
+.pizza-link {
+  border-radius: 8px;
+  padding: 16px 11px;
+}
+.pizza-link:hover {
+  background-color: #fff49e;
+  color: rgb(82, 70, 3);
+  text-decoration: underline;
+}
+.weather-link:hover {
+  background-color: rgb(166, 231, 243);
+  color: grey;
+  text-decoration: underline;
+}
+.secondary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.about-paragraphs {
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.number {
+  text-align: center;
+  display: block;
+}
