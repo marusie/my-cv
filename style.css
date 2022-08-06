@@ -8,15 +8,9 @@ body {
   margin-top: 100px;
 }
 
-h1,
-h2,
-h3,
-h4 {
-  margin: 0;
-}
-
 h1 {
   font-size: 96px;
+  padding-top: 70px;
 }
 
 h2 {
@@ -123,4 +117,10 @@ contact:hover {
 .number {
   text-align: center;
   display: block;
+}
+
+@media (max-width: 576px) {
+  img {
+    display: none;
+  }
 }
