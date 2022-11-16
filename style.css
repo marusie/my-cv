@@ -40,7 +40,10 @@ p {
 .navigation-links a {
   margin: 20px;
 }
-
+.me-photo {
+  width: 50px;
+  height: 50px;
+}
 .primary-link {
   border-radius: 4px;
   padding: 20px 15px;
