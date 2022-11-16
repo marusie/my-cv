@@ -41,8 +41,8 @@ p {
   margin: 20px;
 }
 .me-photo {
-  width: 50px;
-  height: 50px;
+  width: 350px;
+  height: 400px;
 }
 .primary-link {
   border-radius: 4px;
@@ -76,6 +76,10 @@ contact:hover {
   background-color: #fff49e;
   color: rgb(82, 70, 3);
   text-decoration: underline;
+}
+.text-me {
+  padding-top: 100px;
+  padding-left: 260px;
 }
 .weather-link:hover {
   background-color: rgb(166, 231, 243);
