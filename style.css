@@ -1,11 +1,17 @@
 :root {
-  --primary-color: rgb(96, 93, 136);
+  --primary-color: rgb(194, 194, 220);
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+.main-page {
+  background-color: #9b9bc3;
+  color: white;
+}
 body {
   margin-top: 100px;
+  background-color: #50788d;
+  color: white;
 }
 
 h1 {
@@ -62,7 +68,7 @@ contact:hover {
   text-decoration: none;
 }
 .weather-link {
-  background-color: rgb(93, 177, 192);
+  background-color: rgb(48, 131, 146);
   color: var(--secondary-color);
   text-decoration: none;
 }
@@ -80,6 +86,8 @@ contact:hover {
 .text-me {
   padding-top: 100px;
   padding-left: 260px;
+  font-size: 24px;
+  opacity: 0.7;
 }
 .weather-link:hover {
   background-color: rgb(166, 231, 243);
@@ -119,6 +127,7 @@ contact:hover {
 
 .email-link:hover {
   text-decoration: underline;
+  color: rgb(126, 216, 255);
 }
 
 .number {
